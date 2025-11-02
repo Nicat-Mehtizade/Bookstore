@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: Cormorant;
+    src: url("../src/assets/fonts/Cormorant/CormorantGaramond-Regular.ttf");
+}
+
+@theme{
+    --font-cormorant: Cormorant, "sans-serif";
+}

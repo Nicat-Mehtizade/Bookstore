@@ -19,10 +19,13 @@ const Header = () => {
               <NavLink to={"/contact"}>Contact Us</NavLink>
               <NavLink to={"/about"}>About Us</NavLink>
             </nav>
-            <div className="flex gap-4 text-2xl">
-              <button className="cursor-pointer">
-                <AiOutlineShoppingCart />
-              </button>
+            <div className="flex gap-4 text-3xl">
+              <div className="relative">
+                <button className="cursor-pointer">
+                  <AiOutlineShoppingCart />
+                </button>
+                <p className="absolute bottom-1 left-4 bg-[#084935] rounded-full h-4 w-4 flex items-center justify-center text-[10px] text-white">0</p>
+              </div>
               <button className="cursor-pointer">
                 <GoSearch />
               </button>
